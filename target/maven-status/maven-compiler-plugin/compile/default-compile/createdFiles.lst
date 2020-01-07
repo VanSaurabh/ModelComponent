@@ -1,0 +1,8 @@
+com\bemychef\modelComponent\commonEnum\StatusEnum.class
+com\bemychef\modelComponent\model\UserLoginSessionModel.class
+com\bemychef\modelComponent\model\UserModel.class
+com\bemychef\bemychefusercomponent\model\UserComponentServices.class
+com\bemychef\modelComponent\model\TermsAndCondition.class
+com\bemychef\modelComponent\ModelComponent.class
+com\bemychef\bemychefusercomponent\model\UserComponentCategory.class
+com\bemychef\modelComponent\commonEnum\StatusEnum$1.class
