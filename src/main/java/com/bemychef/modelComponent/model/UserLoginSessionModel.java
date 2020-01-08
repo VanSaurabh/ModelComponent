@@ -1,5 +1,7 @@
 package com.bemychef.modelComponent.model;
 
+import com.bemychef.basemodel.BaseModel;
+
 import java.sql.Timestamp;
 
 import javax.persistence.Column;
@@ -13,7 +15,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="bemychef_login_session")
-public class UserLoginSessionModel {
+public class UserLoginSessionModel extends BaseModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

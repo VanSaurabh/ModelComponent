@@ -7,12 +7,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import com.bemychef.basemodel.BaseModel;
 import com.bemychef.modelComponent.commonEnum.StatusEnum;
 
 
 @Entity
 @Table(name = "bemychef_terms")
-public class TermsAndCondition {
+public class TermsAndCondition extends BaseModel {
 	
 	 @Id
 	 @GeneratedValue(strategy = GenerationType.AUTO)

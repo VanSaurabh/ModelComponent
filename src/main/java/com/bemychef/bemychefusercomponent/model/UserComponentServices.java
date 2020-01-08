@@ -1,12 +1,13 @@
 package com.bemychef.bemychefusercomponent.model;
 
+import com.bemychef.basemodel.BaseModel;
 import com.bemychef.modelComponent.commonEnum.StatusEnum;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "bemychef_services")
-public class UserComponentServices {
+public class UserComponentServices  extends BaseModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

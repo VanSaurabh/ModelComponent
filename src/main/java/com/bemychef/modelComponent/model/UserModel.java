@@ -9,12 +9,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.bemychef.basemodel.BaseModel;
 import com.bemychef.modelComponent.commonEnum.StatusEnum;
 
 
 @Entity
 @Table(name = "bemychef_users")
-public class UserModel{
+public class UserModel extends BaseModel {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
